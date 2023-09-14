@@ -21,7 +21,7 @@ interface InputTextProps {
             placeholder="할 일을 입력해 주세요."
             value={inputText}
           />
-          <button type="submit" >등록하기</button>
+          <button type="submit" className='submitbtn'>등록</button>
         </form>
       </div>
     );
